@@ -10,16 +10,25 @@
 
 .swiper-slide img {
     width: 100%;
+    
 }
 
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
+
 }
 
 .swiper-pagination {
     position: initial;
     margin: 0.5em 0;
+}
+
+.descricao__imagem-destaque {
+    max-width: 160px; /* ou qualquer valor que mantenha o layout agradável */
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .card__botoes,
@@ -99,5 +108,62 @@
     .card {
         width: 50%;
         margin: 2em auto;
+    }
+
+        .descricao {
+        margin-right: 2em;
+    }
+
+    .descricao__titulo-livro {
+        font-size: 32px;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 24px;
+    }
+
+    .descricao__imagem-destaque {
+    max-width: 160px; /* ou qualquer valor que mantenha o layout agradável */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 80%;
+    }
+
+    .card {
+        margin: 2em 0 0 3em;
+        width: 60%;
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
     }
 }
