@@ -34,8 +34,33 @@
     background-image: url('../img/Email.svg');
     background-repeat: no-repeat;
     font-family: var(--fonte-principal);
-    padding-left: 3em;
+    background-position: 5em;
     color: var(--azul);
     text-align: center;
 
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__email {
+        width: 40%;
+    }
+
+    .contato__descricao {
+        margin-right: 1.5em;
+        width: 30%;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__texto {
+        font-size: 16px;
+    }
 }
