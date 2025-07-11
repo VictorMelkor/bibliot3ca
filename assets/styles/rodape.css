@@ -19,7 +19,7 @@ hr {
 
     .rodape__container--lista {
         display: block;
-        border-left: 2px solid lightgray;
+        border-left: 1px solid #d3d3d3;
         padding: 1em;
     }
 
@@ -37,8 +37,11 @@ hr {
     }
 
     .rodape__link {
-        color: gray;
+        color: lightgray;
         text-decoration: none; 
+        display: flex;
+        align-items: center;
+        
     }
 
     .rodape__link:hover {
@@ -54,9 +57,18 @@ hr {
     }
 
     .rodape__titulo-lista {
-        color: lightgray;
+        color: gray;
         text-transform: uppercase;
         font-weight: 400;
         margin-bottom: 1em;
     }
+
+    .icone {
+        padding-right: 0.5em;
+        width: 32px;
+        height: auto;
+        
+        
+    }
+
 }
