@@ -1,12 +1,14 @@
-    <!DOCTYPE html>
-    <html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Loja online de livros diversos, com categorias variadas e títulos selecionados para todos os gostos." />
+    <meta name="description"
+        content="Loja online de livros diversos, com categorias variadas e títulos selecionados para todos os gostos." />
     <meta name="author" content="Victor Rodrigues" />
-    <meta name="keywords" content="livros, loja de livros, livraria online, comprar livros, romance, tecnologia, ficção, leitura" />
+    <meta name="keywords"
+        content="livros, loja de livros, livraria online, comprar livros, romance, tecnologia, ficção, leitura" />
     <title>Bibliot3ca – Sua loja de livros online</title>
 
     <link rel="stylesheet" href="assets/reset.css" />
@@ -17,199 +19,240 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet" />
-    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
+</head>
 
-    <body>
+<body>
     <header class="cabecalho">
         <div class="container">
-        <input type="checkbox" name="menu" id="menu" class="container__botao" />
-        <label for="menu" class="container__label">
-            <span class="cabecalho__menu-hamburguer container__imagem"></span>
-        </label>
-        <ul class="lista-menu">
-            <li class="lista-menu__titulo">Categorias</li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ficção</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Tecnologia</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Psicologia</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">História</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Outros</a></li>
-        </ul>
-        <img src="assets/img/logo.png" alt="Logo da Bibliot3ca" class="container__imagem" />
-        <h1 class="container__titulo"><b class="container__titulo--negrito">Bibliot3ca</b></h1>
+            <input type="checkbox" name="menu" id="menu" class="container__botao" />
+            <label for="menu" class="container__label">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ficção</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Tecnologia</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Psicologia</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">História</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Outros</a></li>
+            </ul>
+            <img src="assets/img/logo.png" alt="Logo da Bibliot3ca" class="container__imagem" />
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Bibliot3ca</b></h1>
         </div>
 
         <ul class="opcoes">
-        <input type="checkbox" name="opcoes-menu" id="opcoes-menu" class="opcoes__botao" />
-        <label for="opcoes-menu" class="opcoes__label">
-            <li class="opcoes__item">Categorias</li>
-        </label>
-        <ul class="lista-menu">
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ficção</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Tecnologia</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Psicologia</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">História</a></li>
-            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Outros</a></li>
-        </ul>
-        <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
-        <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+            <input type="checkbox" name="opcoes-menu" id="opcoes-menu" class="opcoes__botao" />
+            <label for="opcoes-menu" class="opcoes__label">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ficção</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Tecnologia</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Psicologia</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">História</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Outros</a></li>
+            </ul>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
         </ul>
 
         <div class="container">
-        <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem--transparente" /></a>
-        <a href="#" class="container__link">
-            <img src="assets/img/Compras.svg" alt="Carrinho de Compras" class="container__imagem" />
-            <p class="container__texto">Minha Sacola</p>
-        </a>
-        <a href="#" class="container__link">
-            <img src="assets/img/Usuario.svg" alt="Meu Perfil" class="container__imagem" />
-            <p class="container__texto">Meu perfil</p>
-        </a>
+            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos"
+                    class="container__imagem container__imagem--transparente" /></a>
+            <a href="#" class="container__link">
+                <img src="assets/img/Compras.svg" alt="Carrinho de Compras" class="container__imagem" />
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/img/Usuario.svg" alt="Meu Perfil" class="container__imagem" />
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
     </header>
 
     <section class="banner">
-        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
-        <p class="banner__texto">Encontre em nossa estante o que precisa para sua leitura!</p>
-        <input type="search" name="pesquisa" id="pesquisa" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?" />
+        <h2 class="banner__titulo animar">Já sabe por onde começar?</h2>
+        <p class="banner__texto animar">Encontre em nossa estante o que precisa para sua leitura!</p>
+        <input type="search" name="pesquisa" id="pesquisa" class="banner__pesquisa animar"
+            placeholder="Qual será sua próxima leitura?" />
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
-        <div class="carrossel__container">
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="assets/img/got.jpg" alt="Capa do livro A Guerra dos Tronos, da saga As Crônicas de Gelo e Fogo" /></div>
-            <div class="swiper-slide"><img src="assets/img/nome do vento.jpg" alt="Capa do livro O Nome do Vento, saga fantástica sobre o personagem Kvothe" /></div>
-            <div class="swiper-slide"><img src="assets/img/cronicas saxonicas.jpg" alt="Capa do livro O Último Reino, início das Crônicas Saxônicas de Bernard Cornwell" /></div>
-            <div class="swiper-slide"><img src="assets/img/dragoes de eter.jpg" alt="Capa do livro Dragões de Éter: Caçadores de Bruxas, fantasia nacional com contos de fadas reimaginados" /></div>
-            <div class="swiper-slide"><img src="assets/img/abda.jpg" alt="Capa do livro A Batalha do Apocalipse, fantasia épica brasileira de Eduardo Spohr" /></div>
-            <div class="swiper-slide"><img src="assets/img/hobbit.jpg" alt="Capa do livro O Hobbit, a jornada de Bilbo Bolseiro" /></div>
+        <div class="carrossel__container animar">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/got.jpg"
+                            alt="Capa do livro A Guerra dos Tronos, da saga As Crônicas de Gelo e Fogo" /></div>
+                    <div class="swiper-slide"><img src="assets/img/nome do vento.jpg"
+                            alt="Capa do livro O Nome do Vento, saga fantástica sobre o personagem Kvothe" /></div>
+                    <div class="swiper-slide"><img src="assets/img/cronicas saxonicas.jpg"
+                            alt="Capa do livro O Último Reino, início das Crônicas Saxônicas de Bernard Cornwell" />
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/dragoes de eter.jpg"
+                            alt="Capa do livro Dragões de Éter: Caçadores de Bruxas, fantasia nacional com contos de fadas reimaginados" />
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/abda.jpg"
+                            alt="Capa do livro A Batalha do Apocalipse, fantasia épica brasileira de Eduardo Spohr" />
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/hobbit.jpg"
+                            alt="Capa do livro O Hobbit, a jornada de Bilbo Bolseiro" /></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
 
-        <div class="card">
-            <div class="card__descricao">
-            <div class="descricao">
-                <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                <h2 class="descricao__titulo-livro">O Senhor dos Anéis</h2>
-                <p class="descricao__texto">Primeiro volume da trilogia, marco absoluto da fantasia moderna.</p>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">O Senhor dos Anéis</h2>
+                        <p class="descricao__texto">Primeiro volume da trilogia, marco absoluto da fantasia moderna.</p>
+                    </div>
+                    <img src="assets/img/lotr.jpg" class="descricao__imagem-destaque" alt="Livro O Senhor dos Anéis" />
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="assets/img/Favoritos.svg" alt="Favoritar" /></li>
+                        <li class="botoes__item"><img src="assets/img/Compras.svg" alt="Adicionar ao carrinho" /></li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
             </div>
-            <img src="assets/img/lotr.jpg" class="descricao__imagem-destaque" alt="Livro O Senhor dos Anéis" />
-            </div>
-            <div class="card__botoes">
-            <ul class="botoes">
-                <li class="botoes__item"><img src="assets/img/Favoritos.svg" alt="Favoritar" /></li>
-                <li class="botoes__item"><img src="assets/img/Compras.svg" alt="Adicionar ao carrinho" /></li>
-            </ul>
-            <a href="#" class="botoes__ancora">Saiba mais</a>
-            </div>
-        </div>
         </div>
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
-        <div class="carrossel__container">
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="assets/img/rei inverno.jpg" alt="Capa do livro O Último Reino, início das Crônicas Saxônicas de Bernard Cornwell" /></div>
-            <div class="swiper-slide"><img src="assets/img/sete reinos.jpg" alt="Capa do livro O Cavaleiro dos Sete Reinos, aventuras anteriores a Game of Thrones" /></div>
-            <div class="swiper-slide"><img src="assets/img/filhos do heden.jpg" alt="Capa do livro Herdeiros de Atlântida, primeiro da trilogia Filhos do Éden" /></div>
-            <div class="swiper-slide"><img src="assets/img/coracao de tinta.jpg" alt="Capa do livro Coração de Tinta, fantasia sobre livros e mundos mágicos" /></div>
-            <div class="swiper-slide"><img src="assets/img/imperio final.jpg" alt="Capa do livro O Império Final, primeiro da saga Mistborn de Brandon Sanderson" /></div>
-            <div class="swiper-slide"><img src="assets/img/olho do mundo.jpg" alt="Capa do livro O Olho do Mundo, primeiro volume da saga A Roda do Tempo" /></div>
+        <div class="carrossel__container animar">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/rei inverno.jpg"
+                            alt="Capa do livro O Último Reino, início das Crônicas Saxônicas de Bernard Cornwell" />
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/sete reinos.jpg"
+                            alt="Capa do livro O Cavaleiro dos Sete Reinos, aventuras anteriores a Game of Thrones" />
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/filhos do heden.jpg"
+                            alt="Capa do livro Herdeiros de Atlântida, primeiro da trilogia Filhos do Éden" /></div>
+                    <div class="swiper-slide"><img src="assets/img/coracao de tinta.jpg"
+                            alt="Capa do livro Coração de Tinta, fantasia sobre livros e mundos mágicos" /></div>
+                    <div class="swiper-slide"><img src="assets/img/imperio final.jpg"
+                            alt="Capa do livro O Império Final, primeiro da saga Mistborn de Brandon Sanderson" /></div>
+                    <div class="swiper-slide"><img src="assets/img/olho do mundo.jpg"
+                            alt="Capa do livro O Olho do Mundo, primeiro volume da saga A Roda do Tempo" /></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        
 
-        <div class="card">
-            <img src="assets/img/Estrelinhas.svg" alt="Cinco estrelas de avaliação" />
-            <div class="card__descricao">
-            <div class="descricao">
-                <h3 class="descricao__titulo">Autor do mês:</h3>
-                <h2 class="descricao__titulo-livro">J.R.R. Tolkien</h2>
-                <p class="descricao__texto">Professor, linguista e pai da fantasia moderna, Tolkien é autor de clássicos como O Senhor dos Anéis e O Hobbit, cujos mundos, línguas e mitologias continuam inspirando leitores há gerações.</p>
+
+            <div class="card">
+                <img src="assets/img/Estrelinhas.svg" alt="Cinco estrelas de avaliação" />
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Autor do mês:</h3>
+                        <h2 class="descricao__titulo-livro">J.R.R. Tolkien</h2>
+                        <p class="descricao__texto">Professor, linguista e pai da fantasia moderna, Tolkien é autor de
+                            clássicos como O Senhor dos Anéis e O Hobbit, cujos mundos, línguas e mitologias continuam
+                            inspirando leitores há gerações.</p>
+                    </div>
+                    <img src="assets/img/tolkien.jpg" class="descricao__imagem-destaque"
+                        alt="Livro O Senhor dos Anéis" />
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="assets/img/Favoritos.svg" alt="Favoritar" /></li>
+                        <li class="botoes__item"><img src="assets/img/Compras.svg" alt="Adicionar ao carrinho" /></li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
             </div>
-            <img src="assets/img/tolkien.jpg" class="descricao__imagem-destaque" alt="Livro O Senhor dos Anéis" />
-            </div>
-            <div class="card__botoes">
-            <ul class="botoes">
-                <li class="botoes__item"><img src="assets/img/Favoritos.svg" alt="Favoritar" /></li>
-                <li class="botoes__item"><img src="assets/img/Compras.svg" alt="Adicionar ao carrinho" /></li>
-            </ul>
-            <a href="#" class="botoes__ancora">Saiba mais</a>
-            </div>
-        </div>
         </div>
     </section>
 
-<section class="topicos">
-    <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
-    <ul class="topicos__lista">
-        <li class="topicos__item"><a href="#" class="topicos__link">Fantasia Épica</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Mitologia</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Espadas & Magia</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Reinos e Impérios</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Dragões</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Guerra & Estratégia</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Magos & Feiticeiros</a></li>
-        <li class="topicos__item"><a href="#" class="topicos__link">Aventuras Épicas</a></li>
-    </ul>
-</section>
+    <section class="topicos">
+        <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
+        <ul class="topicos__lista animar">
+            <li class="topicos__item"><a href="#" class="topicos__link">Fantasia Épica</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Mitologia</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Espadas & Magia</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Reinos e Impérios</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Dragões</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Guerra & Estratégia</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Magos & Feiticeiros</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Aventuras Épicas</a></li>
+        </ul>
+    </section>
 
 
-    <section class="contato">
+    <section class="contato animar">
         <div class="contato__descricao">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
         </div>
         <input type="email" name="email" id="email" placeholder="Cadastre seu email" class="contato__email" />
     </section>
 
     <hr />
 
-    <footer class="rodape">
-        
+    <footer class="rodape animar">
+
         <h2 class="rodape__titulo">Victor Rodrigues</h2>
         <ul class="rodape__container--lista">
-        <li class="rodape__titulo-lista">Portfolio</li>
-        <li class="rodape__item"><a href="https://victormelkor.github.io" target="_blank" class="rodape__link"><img src="assets/img/cv.png" alt="Icone curriculo" class="icone">Currículo</a></li>
-        <li class="rodape__item"><a href="https://victormelkor.github.io/webdev" target="_blank" class="rodape__link"><img src="assets/img/shop.png" alt="Icone Institucional" class="icone">Institucional</a></li>
-        <li class="rodape__item"><a href="https://github.com/victormelkor" target="_blank" class="rodape__link"><img src="assets/img/social.png" alt="Icone github" class="icone">Github</a></li>
+            <li class="rodape__titulo-lista">Portfolio</li>
+            <li class="rodape__item"><a href="https://victormelkor.github.io" target="_blank" class="rodape__link"><img
+                        src="assets/img/cv.png" alt="Icone curriculo" class="icone">Currículo</a></li>
+            <li class="rodape__item"><a href="https://victormelkor.github.io/webdev" target="_blank"
+                    class="rodape__link"><img src="assets/img/shop.png" alt="Icone Institucional"
+                        class="icone">Institucional</a></li>
+            <li class="rodape__item"><a href="https://github.com/victormelkor" target="_blank" class="rodape__link"><img
+                        src="assets/img/social.png" alt="Icone github" class="icone">Github</a></li>
         </ul>
         <ul class="rodape__container--lista">
-        <li class="rodape__titulo-lista">Projetos</li>
-        <li class="rodape__item"><a href="https://doitnow.up.railway.app/" target="_blank" class="rodape__link"><img src="assets/img/check-circle.png" alt="Icone do.it" class="icone">do.it</a></li>
-        <li class="rodape__item"><a href="https://victormelkor.github.io/login-responsivo/" target="_blank" class="rodape__link"><img src="assets/img/security.png" alt="Icone login" class="icone">Login Responsivo</a></li>
-        <li class="rodape__item"><a href="https://victormelkor.github.io/juliatravassos/" target="_blank" class="rodape__link"><img src="assets/img/expert.png" alt="Icone profissional" class="icone">Sites profissionais</a></li>
-        <li class="rodape__item"><a href="https://victormelkor.github.io/bibliot3ca/" target="_blank" class="rodape__link"><img src="assets/img/book.png" alt="Icone bibliot3ca" class="icone">Bibliot3ca</a></li>
-        <li class="rodape__item"><a href="https://taskmanager-pro.onrender.com/" target="_blank" class="rodape__link"><img src="assets/img/checklist.png" alt="Icone TaskManager" class="icone">TaskManager Pro</a></li>
+            <li class="rodape__titulo-lista">Projetos</li>
+            <li class="rodape__item"><a href="https://doitnow.up.railway.app/" target="_blank" class="rodape__link"><img
+                        src="assets/img/check-circle.png" alt="Icone do.it" class="icone">do.it</a></li>
+            <li class="rodape__item"><a href="https://victormelkor.github.io/login-responsivo/" target="_blank"
+                    class="rodape__link"><img src="assets/img/security.png" alt="Icone login" class="icone">Login
+                    Responsivo</a></li>
+            <li class="rodape__item"><a href="https://victormelkor.github.io/juliatravassos/" target="_blank"
+                    class="rodape__link"><img src="assets/img/expert.png" alt="Icone profissional" class="icone">Sites
+                    profissionais</a></li>
+            <li class="rodape__item"><a href="https://victormelkor.github.io/bibliot3ca/" target="_blank"
+                    class="rodape__link"><img src="assets/img/book.png" alt="Icone bibliot3ca"
+                        class="icone">Bibliot3ca</a></li>
+            <li class="rodape__item"><a href="https://taskmanager-pro.onrender.com/" target="_blank"
+                    class="rodape__link"><img src="assets/img/checklist.png" alt="Icone TaskManager"
+                        class="icone">TaskManager Pro</a></li>
         </ul>
         <ul class="rodape__container--lista">
-        <li class="rodape__titulo-lista">Redes Sociais</li>
-        <li class="rodape__item"><a href="https://www.instagram.com/victormelkor" target="_blank" class="rodape__link"><img src="assets/img/instagram.png" alt="Icone instagram" class="icone">Instagram</a></li>
-        <li class="rodape__item"><a href="https://www.linkedin.com/in/victormelkor" target="_blank" class="rodape__link"><img src="assets/img/linkedin.png" alt="Icone linkedin" class="icone">LinkedIn</a></li>
+            <li class="rodape__titulo-lista">Redes Sociais</li>
+            <li class="rodape__item"><a href="https://www.instagram.com/victormelkor" target="_blank"
+                    class="rodape__link"><img src="assets/img/instagram.png" alt="Icone instagram"
+                        class="icone">Instagram</a></li>
+            <li class="rodape__item"><a href="https://www.linkedin.com/in/victormelkor" target="_blank"
+                    class="rodape__link"><img src="assets/img/linkedin.png" alt="Icone linkedin"
+                        class="icone">LinkedIn</a></li>
         </ul>
     </footer>
 
+    <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,
-        slidesPerView: 3,
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        },
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
         });
     </script>
-    </body>
+</body>
 
-    </html>
+</html>
